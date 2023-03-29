@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <title>Prueba Desis</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>FORMULARIO DE VOTACIÓN:</h1><br><br>
+        </div><hr>
+        <form action="" id="formulario">
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Nombre y Apellido</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="nombre" name="nombre" class="form-control" placeholder="jhon doe">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Alias</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="alias" name="alias" class="form-control" placeholder="jhon445">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Rut</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="rut" name="rut" class="form-control" placeholder="INGRESE RUT CON GUION Y CON DIGITO VERIFICADOR">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Email</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" id="correo" name="correo" class="form-control" placeholder="pruebadesis@gmail.com">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Region</label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="region" name="region" required="true"></select>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Comuna</label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="comuna" name="comuna" required="true">
+                        <option value="0">**********Seleccione una Region Primero*************</option>
+                    </select>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Candidato</label>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-control" id="candidato" name="candidato" required="true"></select>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="">Como se enteró de Nosotros</label>
+                </div>
+                <div class="form-check col-md-2">
+                    <input class="form-check-input" type="checkbox" value="web" id="web">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Web
+                    </label>
+                </div>
+                <div class="form-check col-md-2">
+                    <input class="form-check-input" type="checkbox" value="tv" id="tv">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      TV
+                    </label>
+                </div>
+                <div class="form-check col-md-2">
+                    <input class="form-check-input" type="checkbox" value="redes" id="redes">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Redes Sociales
+                    </label>
+                </div>
+                <div class="form-check col-md-2">
+                    <input class="form-check-input" type="checkbox" value="amigo" id="amigo">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Amigo
+                    </label>
+                </div>
+            </div><br><br><br>
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <button class="btn btn-success" id="btnVotar">Votar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</html>
