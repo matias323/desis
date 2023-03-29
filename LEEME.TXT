@@ -1,0 +1,8 @@
+implementacion de proyecto
+
+-clonar el repositorio publico con carpeta local(servidor local)
+-utilizar el comando "git clone https://github.com/matias323/desis.git"
+-importar la base de datos dejada en carpeta del proyecto
+
+-version de PHP 8.1.12
+-version base de datos 10.4.27-MariaDB
